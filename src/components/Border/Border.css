@@ -87,4 +87,14 @@ button {
     .middleLine {
         width: 108%;
     }
+
+    .borderContainer h1 {
+        position: absolute;
+        width: 50%;
+        left: 11%;
+    }
+
+    button {
+        width: 51%;
+    }
 }
