@@ -1,0 +1,70 @@
+.borderContainer {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+    height: 50%;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(4px);
+    border-radius: 50px;
+}
+
+/* @MEDIA QUERIES */
+
+/* 320px — 480px: Mobile devices */
+@media screen and (max-width: 320px) {
+    .borderContainer {
+      width: 90%;
+    }
+  }
+
+@media screen and (max-width: 480px) {
+    .borderContainer {
+      width: 80%;
+    }
+  }
+/* 320px — 480px: Mobile devices */
+
+/* 481px — 768px: iPads, Tablets */
+@media screen and (max-width: 481px) {
+    .borderContainer {
+      width: 90%;
+    }
+  }
+
+@media screen and (max-width: 768px) {
+    .borderContainer {
+      width: 80%;
+    }
+  }
+/* 481px — 768px: iPads, Tablets */
+
+/* 69px — 1024px: Small screens, laptops */
+@media screen and (max-width: 69px) {
+    .borderContainer {
+      width: 90%;
+    }
+  }
+
+@media screen and (max-width: 1024px) {
+    .borderContainer {
+      width: 80%;
+    }
+  }
+/* 69px — 1024px: Small screens, laptops */
+
+/* 1025px — 1200px: Desktops, large screens */
+@media screen and (max-width: 1025px) {
+    .borderContainer {
+      width: 90%;
+    }
+  }
+
+@media screen and (max-width: 1200px) {
+    .borderContainer {
+      width: 80%;
+    }
+  }
+/* 1025px — 1200px: Desktops, large screens */
