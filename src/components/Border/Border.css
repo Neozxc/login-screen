@@ -1,70 +1,90 @@
 .borderContainer {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: auto;
     width: 40%;
     height: 50%;
     background: #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
     backdrop-filter: blur(4px);
-    border-radius: 50px;
+    border-radius: 40px;
 }
+
+.borderContainer h1 {
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    width: 40%;
+    border-bottom:1px solid #CCC;
+    padding-bottom: 7%;
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+
+input {
+    background-color: #F8F8F8;
+    border: 1px solid #6F6F6F;
+    padding: 5%;
+    width: 123.5%;
+    border-radius: 10px; outline: 0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(4px);
+}
+
+button {
+    position: absolute;
+    top: 80%; left: 10.5%;
+    padding: 1%; width: 30%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(4px);
+    background-color: #F5D3E0;
+    border: 1px solid #6F6F6F;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.usernameInput {
+    position: absolute;
+    top: 55%;
+    left: 10.5%;
+}
+
+.passwordInput {
+    position: absolute;
+    top: 65%;
+    left: 10.5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* @MEDIA QUERIES */
 
 /* 320px — 480px: Mobile devices */
-@media screen and (max-width: 320px) {
+@media only screen and (max-width: 600px) {
     .borderContainer {
-      width: 90%;
-    }
-  }
+        width: 90%;
+      }
 
-@media screen and (max-width: 480px) {
-    .borderContainer {
-      width: 80%;
+    .middleLine {
+        width: 108%;
     }
-  }
-/* 320px — 480px: Mobile devices */
-
-/* 481px — 768px: iPads, Tablets */
-@media screen and (max-width: 481px) {
-    .borderContainer {
-      width: 90%;
-    }
-  }
-
-@media screen and (max-width: 768px) {
-    .borderContainer {
-      width: 80%;
-    }
-  }
-/* 481px — 768px: iPads, Tablets */
-
-/* 69px — 1024px: Small screens, laptops */
-@media screen and (max-width: 69px) {
-    .borderContainer {
-      width: 90%;
-    }
-  }
-
-@media screen and (max-width: 1024px) {
-    .borderContainer {
-      width: 80%;
-    }
-  }
-/* 69px — 1024px: Small screens, laptops */
-
-/* 1025px — 1200px: Desktops, large screens */
-@media screen and (max-width: 1025px) {
-    .borderContainer {
-      width: 90%;
-    }
-  }
-
-@media screen and (max-width: 1200px) {
-    .borderContainer {
-      width: 80%;
-    }
-  }
-/* 1025px — 1200px: Desktops, large screens */
+}

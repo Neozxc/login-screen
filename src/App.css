@@ -3,5 +3,7 @@
 }
 
 body {
-  background-color: black;
+  padding-top: 12%;
+  background-color: gray;
+  background: url('./components/Images/wallhaven-q6wz6r.png');
 }
