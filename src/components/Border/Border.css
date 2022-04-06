@@ -82,7 +82,8 @@ button {
 @media only screen and (max-width: 600px) {
     .borderContainer {
         width: 90%;
-      }
+        top: 24%;
+    }
 
     .middleLine {
         width: 108%;
@@ -91,10 +92,22 @@ button {
     .borderContainer h1 {
         position: absolute;
         width: 50%;
-        left: 11%;
+        left: 0%;
+        right: 0;
+        margin: auto;
+        top: 20%;
+    }
+
+    .borderContainer input {
+        position: relative;
+        left: 35%;
     }
 
     button {
         width: 51%;
+        left: 0;
+        right: 0;
+        top: 80%;
+        margin: auto;
     }
 }
